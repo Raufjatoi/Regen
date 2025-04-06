@@ -3,12 +3,7 @@ import { Kanit } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import {
-  ClerkProvider,
-  SignInButton,
-  SignUpButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
+  ClerkProvider
 } from '@clerk/nextjs'
 
 const kanit = Kanit({
